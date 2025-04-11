@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    height: 100vh;
+}
+
+
+.kwadrat{
+    
+    height: 100%;
+    width: 100%;
+    display: flex;
+    border: 4px solid black;
+    padding: 10px;
+}
+.gora{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.gora1{
+    height: 20%;
+    width: 78%;
+    border: 4px solid black;
+}
+.gora2{
+    height: 20%;
+    width: 20%;
+    border: 4px solid black;
+}
